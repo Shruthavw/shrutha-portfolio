@@ -42,12 +42,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "@tailwindcss/postcss7-compat": "^2.2.17",
-    "autoprefixer": "^10.4.21",
-    "postcss": "^8.5.4",
-    "tailwindcss": "^4.1.8"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Shruthavw/shrutha-portfolio.git"
@@ -55,5 +49,10 @@
   "bugs": {
     "url": "https://github.com/Shruthavw/shrutha-portfolio/issues"
   },
-  "homepage": "https://github.com/Shruthavw/shrutha-portfolio#readme"
+  "homepage": "https://github.com/Shruthavw/shrutha-portfolio#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.4",
+    "tailwindcss": "^4.1.8"
+  }
 }
