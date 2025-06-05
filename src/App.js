@@ -1,4 +1,5 @@
 import React from 'react';
+import './index.css';
 import Header from './components/Header';
 import About from './components/About';
 import Skills from './components/Skills';
@@ -21,7 +22,7 @@ function App() {
         <Certifications />
         <Contact />
       </main>
-      <footer className="text-center py-6 text-gray-500 text-sm">© 2025 Your Name</footer>
+      <footer className="text-center py-6 text-gray-500 text-sm">© 2025 Shrutha V W</footer>
     </div>
   );
 }
