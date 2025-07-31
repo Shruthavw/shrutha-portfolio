@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shrutha V W - Full Stack Software Engineer</title>
+    <meta name="description" content="Full Stack Software Engineer specializing in React.js, Node.js, Django. Building scalable, human-centered web applications.">
+    <meta name="keywords" content="Full Stack Developer, React, Node.js, Django, Software Engineer, Web Developer">
+    <meta name="author" content="Shrutha V W">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Shrutha V W - Full Stack Software Engineer">
+    <meta property="og:description" content="Building scalable, human-centered web applications">
+    <meta property="og:type" content="website">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+     <!-- CSS -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">SV</a>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" onclick="toggleTheme()">
+                <i class="fas fa-moon"></i>
+            </button>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="floating-shape shape-1"></div>
+        <div class="floating-shape shape-2"></div>
+        <div class="floating-shape shape-3"></div>
+        
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-subtitle">Hello, I'm</div>
+                <h1 class="hero-title">
+                    <span class="highlight">Shrutha V W</span>
+                </h1>
+                <div class="typed-text" id="typed-text"></div>
+                <div class="hero-buttons">
+                    <a href="assets/Shruthavw_SoftwareEngineer_Resume.pdf" class="btn btn-primary" onclick="downloadResume()">
+                        <i class="fas fa-download"></i>
+                        Download Resume
+                    </a>
+                    <a href="#contact" class="btn btn-outline">
+                        <i class="fas fa-envelope"></i>
+                        Hire Me
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/Shrutha_Photo.jpg" alt="Shrutha V W - Profile" class="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="assets/Shrutha_Photo.jpg" alt="Shrutha V W" class="about-img">
+                </div>
+                <div class="about-text">
+                    <p>I'm a passionate <span class="highlight">Full-Stack Developer</span> with extensive experience in designing and deploying scalable, end-to-end web applications. My expertise spans across modern technologies including <span class="highlight">React.js, Node.js, Django, and SQL</span>.</p>
+                    
+                    <p>I specialize in building <span class="highlight">responsive user interfaces, secure APIs, and optimized databases</span>, with hands-on experience in CI/CD pipelines and Agile development practices. My passion lies in creating human-centered applications that solve real-world problems.</p>
+                    
+                    <p>Throughout my journey, I've successfully delivered <span class="highlight">high-performance SaaS portals and dashboards</span> through strong collaboration with cross-functional teams. I believe in continuous learning and staying updated with the latest industry trends to deliver innovative solutions.</p>
+                    
+                    <p>When I'm not coding, you can find me exploring new technologies, contributing to open-source projects, or sharing knowledge with the developer community.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Frontend</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>React.js</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>JavaScript ES6+</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>HTML5/CSS3</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Tailwind CSS</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Redux</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Node.js</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Django</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Flask</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>REST APIs</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Authentication</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Databases</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>MySQL</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>PostgreSQL</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>MongoDB</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="70"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>SQL Optimization</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> DevOps &amp; Tools</h3>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Git/GitHub</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="85"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Docker</span>
+                            <span>65%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="65"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Postman</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>VS Code</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            <span>Jira</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-width="75"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" onclick="openProjectModal('project1')">
+                    <div class="project-image" style="background-image: url('https://pplx-res.cloudinary.com/image/upload/v1760523148/pplx_project_search_images/db653af0fa5b98ce56e19083cf188ec276c9f17b.png')">
+                        <div class="project-overlay">
+                            <a href="#" class="btn btn-outline"><i class="fab fa-github"></i></a>
+                            <!-- <a href="#" class="btn btn-outline"><i class="fas fa-external-link-alt"></i></a> -->
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">EV Charger Locator Dashboard</h3>
+                        <p class="project-description">Real-time EV charger locator dashboard using React.js, Node.js, and Google Maps API, improving data throughput by 20% and reducing client load time by 35%.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React.js</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Google Maps API</span>
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Shruthavw/EV-Charger-locator-app" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                            <!-- <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" onclick="openProjectModal('project2')">
+                    <div class="project-image" style="background-image: url('https://pplx-res.cloudinary.com/image/upload/v1754833175/pplx_project_search_images/4302f4090644a9554e2925d3c7f4af3cfa3b667e.png')">
+                        <div class="project-overlay">
+                            <a href="#" class="btn btn-outline"><i class="fab fa-github"></i></a>
+                            <!-- <a href="#" class="btn btn-outline"><i class="fas fa-external-link-alt"></i></a> -->
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">AI Resume Analyzer</h3>
+                        <p class="project-description">Intelligent resume analysis system using natural language processing and machine learning to provide feedback on resume content, structure, and ATS compatibility.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Machine Learning</span>
+                            <span class="tech-tag">NLP</span>
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">React</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Shruthavw/AI-RESUME-ANALYZER" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                            <!-- <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" onclick="openProjectModal('project3')">
+                    <div class="project-image" style="background-image: url('https://pplx-res.cloudinary.com/image/upload/v1760522475/pplx_project_search_images/30f5a958148025ae0fc7c13b4cc03a6e31391599.png')">
+                        <div class="project-overlay">
+                            <a href="#" class="btn btn-outline"><i class="fab fa-github"></i></a>
+                            <!-- <a href="#" class="btn btn-outline"><i class="fas fa-external-link-alt"></i></a> -->
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Recipe Generation from Food Images Using AI</h3>
+                        <p class="project-description">Computer vision application that identifies food items from images and generates detailed recipes using deep learning and image recognition technologies.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">Computer Vision</span>
+                            <span class="tech-tag">Deep Learning</span>
+                            <span class="tech-tag">React</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Shruthavw/Recipe-Generation-from-Food-Image" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                            <!-- <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" onclick="openProjectModal('project4')">
+                    <div class="project-image" style="background-image: url('assets/PDD\ project.jpg')">
+                        <div class="project-overlay">
+                            <a href="#" class="btn btn-outline"><i class="fab fa-github"></i></a>
+                            <!-- <a href="#" class="btn btn-outline"><i class="fas fa-external-link-alt"></i></a> -->
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Parkinson's Disease Detection Using ML</h3>
+                        <p class="project-description">AI-powered medical application for early detection of Parkinson's disease using machine learning algorithms and medical imaging analysis.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Machine Learning</span>
+                            <span class="tech-tag">Medical Imaging</span>
+                            <span class="tech-tag">AI</span>
+                            <span class="tech-tag">Healthcare</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Shruthavw/Parkinsons-disease-detection-using-ML" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                            <!-- <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a> -->
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" onclick="openProjectModal('project5')">
+                    <div class="project-image" style="background-image: url('https://pplx-res.cloudinary.com/image/upload/v1754693784/pplx_project_search_images/863870af1c14bb50a92486ce49fb67b12d12dc67.png')">
+                        <div class="project-overlay">
+                            <a href="#" class="btn btn-outline"><i class="fab fa-github"></i></a>
+                            <!-- <a href="#" class="btn btn-outline"><i class="fas fa-external-link-alt"></i></a> -->
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Online Learning Management System</h3>
+                        <p class="project-description">Comprehensive LMS with responsive dashboards using React + Django REST APIs, featuring authentication, progress tracking, and role-based access control.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">REST APIs</span>
+                            <span class="tech-tag">Authentication</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Shruthavw/Online_Learning_Management_system" class="project-link"><i class="fab fa-github"></i> GitHub</a>
+                            <!-- <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> Live Demo</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Work Experience</h2>
+            <div class="experience-timeline">
+                <div class="timeline-line"></div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="experience-role">Software Engineer Intern</div>
+                        <div class="experience-company">Ford Pro Charging (Electriphi)</div>
+                        <div class="experience-duration">Jun 2024 - Dec 2024</div>
+                        <ul class="experience-achievements">
+                            <li>Designed and deployed real-time EV charger locator dashboard using React.js, Node.js, and Google Maps API</li>
+                            <li>Improved data throughput by 20% and reduced client load time by 35%</li>
+                            <li>Led end-to-end full-stack development of geolocation web app with high-accuracy location capture</li>
+                            <li>Built secure authentication &amp; authorization APIs with token-based access control</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="experience-role">Web Development Intern</div>
+                        <div class="experience-company">PaceWisdom Solutions</div>
+                        <div class="experience-duration">Aug 2023 - Sept 2023</div>
+                        <ul class="experience-achievements">
+                            <li>Developed and maintained RESTful APIs with Django and SQL for scalable Learning Management System</li>
+                            <li>Implemented backend security measures including data validation and role-based authorization</li>
+                            <li>Built responsive dashboards and portals using React.js for smooth user workflows</li>
+                            <li>Assisted in documentation and CI/CD testing workflows</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education &amp; Certifications Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">Education &amp; Certifications</h2>
+            <div class="education-cert-grid">
+                <div class="education-card">
+                    <div class="education-title">Education</div>
+                    <div class="education-degree">Bachelor of Engineering in Computer Science</div>
+                    <div class="education-school">SDM Institute of Technology, Ujire</div>
+                    <div class="education-details">
+                        <span><strong>CGPA:</strong> 8.32/10</span>
+                        <span><strong>Duration:</strong> Dec 2020 - May 2024</span>
+                    </div>
+                </div>
+                
+                <div class="cert-grid">
+                    <div class="education-title">Certifications</div>
+                    
+                    <div class="cert-item">
+                        <div class="cert-icon">AWS</div>
+                        <div class="cert-info">
+                            <h4>Ultimate AWS Certified Cloud Practitioner CLF-C02</h4>
+                            <p class="cert-issuer">Udemy</p>
+                        </div>
+                    </div>
+                    
+                    <div class="cert-item">
+                        <div class="cert-icon">DLT</div>
+                        <div class="cert-info">
+                            <h4>Data Analytics Job Simulation</h4>
+                            <p class="cert-issuer">Deloitte Australia</p>
+                        </div>
+                    </div>
+                    
+                    <div class="cert-item">
+                        <div class="cert-icon">GCP</div>
+                        <div class="cert-info">
+                            <h4>Introduction to Generative AI</h4>
+                            <p class="cert-issuer">Google Cloud Skills Boost</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-grid">
+                <div class="contact-form">
+                    <h3 style="margin-bottom: 1.5rem; color: var(--accent-primary);">Send Message</h3>
+                    <form onsubmit="sendMessage(event)">
+                        <div class="form-group">
+                            <label class="form-label">Name</label>
+                            <input type="text" class="form-input" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-input" placeholder="your.email@example.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Message</label>
+                            <textarea class="form-textarea" placeholder="Your message..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full-width">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <p><a href="mailto:shruthavw12@gmail.com" onclick="copyEmail()">shruthavw12@gmail.com</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <p><a href="tel:+919739126894">+91 9739126894</a></p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Bengaluru, India</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="social-links">
+                <a href="https://github.com/Shruthavw" target="_blank" class="social-link">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/shrutha-v-w" target="_blank" class="social-link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:shruthavw12@gmail.com" class="social-link">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="tel:+919739126894" class="social-link">
+                    <i class="fas fa-phone"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Shrutha V W. All rights reserved. Built with ❤️ and lots of ☕</p>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeProjectModal()">&times;</button>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
