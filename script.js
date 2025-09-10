@@ -128,7 +128,7 @@ const projectData = {
         ],
         technologies: ["React.js", "Node.js", "Google Maps API", "Flask", "Tailwind CSS", "PostgreSQL"],
         github: "#",
-        demo: "#"
+        // demo: "#"
     },
     project2: {
         title: "AI Resume Analyzer",
@@ -143,7 +143,7 @@ const projectData = {
         ],
         technologies: ["Python", "Machine Learning", "Natural Language Processing", "Flask", "React", "TensorFlow"],
         github: "#",
-        demo: "#"
+        // demo: "#"
     },
     project3: {
         title: "Recipe Generation from Food Images",
@@ -158,7 +158,7 @@ const projectData = {
         ],
         technologies: ["Python", "TensorFlow", "Computer Vision", "Deep Learning", "React", "OpenCV"],
         github: "#",
-        demo: "#"
+        // demo: "#"
     },
     project4: {
         title: "Parkinson's Disease Detection",
@@ -173,7 +173,7 @@ const projectData = {
         ],
         technologies: ["Python", "Machine Learning", "Medical Imaging", "AI", "Healthcare APIs", "TensorFlow"],
         github: "#",
-        demo: "#"
+        // demo: "#"
     },
     project5: {
         title: "Online Learning Management System",
@@ -188,7 +188,7 @@ const projectData = {
         ],
         technologies: ["React", "Django", "PostgreSQL", "REST APIs", "Authentication", "WebSocket"],
         github: "#",
-        demo: "#"
+        // demo: "#"
     }
 };
 
@@ -214,9 +214,6 @@ function openProjectModal(projectId) {
         <div style="display: flex; gap: 1rem;">
             <a href="${project.github}" class="btn btn-outline" target="_blank">
                 <i class="fab fa-github"></i> View on GitHub
-            </a>
-            <a href="${project.demo}" class="btn btn-primary" target="_blank">
-                <i class="fas fa-external-link-alt"></i> Live Demo
             </a>
         </div>
     `;
