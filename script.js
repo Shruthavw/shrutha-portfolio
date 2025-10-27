@@ -233,11 +233,11 @@ document.getElementById('projectModal').addEventListener('click', function(e) {
     }
 });
 
-// Download Resume
-function downloadResume() {
-    // Create a simple alert for demo purposes
-    alert('Resume downloaded');
-}
+// // Download Resume
+// function downloadResume() {
+//     // Create a simple alert for demo purposes
+//     alert('Resume downloaded');
+// }
 
 // Copy Email
 function copyEmail() {
